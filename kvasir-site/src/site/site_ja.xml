@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="kvasir">
+  <skin>
+    <groupId>org.seasar</groupId>
+    <artifactId>kvasir-skin</artifactId>
+    <version>1.0.0</version>
+  </skin>
+  <bannerRight>
+    <name>Seasar Kvasir/Sora Project</name>
+    <src>http://maven.apache.org/images/maven-small.gif</src>
+    <href>http://kvasir.sandbox.seasar.org</href>
+  </bannerRight>
+  <body>
+    <links>
+      <item name="Top" href="http://www.seasar.org/" />
+      <item name="Home" href="http://kvasir.sandbox.seasar.org/" />
+    </links>
+
+    <!-- オプショナルメニュー このコンテンツは自動生成されません -->
+    <menu name="Menu">
+      <item name="Introduction" href="index.html"/>
+      <item name="Download" href="downloads/"/>
+      <item name="Tutorials" href="documentation/tutorials.html"/>
+      <item name="Examples" href="documentation/examples.html"/>
+      <item name="User's Guide" href="documentation/user_guide.html"/>
+      <item name="Development's Guide" href="documentation/developer_guide.html"/>
+      <item name="API Javadoc" href="apidocs/"/>
+      <item name="FAQ" href="faq.html"/>
+    </menu>
+
+    <!-- 日本語書くと文字化けする… 
+    <menu name="Menu">
+      <item name="プロジェクトについて" href="index.html"/>
+      <item name="ダウンロード" href="downloads/"/>
+      <item name="チュートリアル" href="documentation/tutorials.html"/>
+      <item name="サンプル" href="documentation/examples.html"/>
+      <item name="ユーザガイド" href="documentation/user_guide.html"/>
+      <item name="開発者ガイド" href="documentation/developer_guide.html"/>
+      <item name="API Javadoc" href="apidocs/"/>
+      <item name="FAQ" href="faq.html"/>
+    </menu>
+    -->
+
+    ${reports}
+  </body>
+</project>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>seasar-project</artifactId>
+    <groupId>org.seasar</groupId>
+    <version>1.0.0</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.seasar.kvasir</groupId>
+  <artifactId>kvasir-site</artifactId>
+  <name>Seasar Kvasir/Sora Project</name>
+  <version>0.0.1</version>
+  <description>Kvasir/Sora gives you a platform to build your software by pluggable architecture.</description>
+  <url>http://kvasir.sandbox.seasar.org/</url>
+  <issueManagement>
+    <system>JIRA</system>
+    <url><![CDATA[https://www.seasar.org/issues/browse/kvasir]]></url>
+  </issueManagement>
+  <inceptionYear>2005</inceptionYear>
+  <scm>
+    <connection>
+      scm:svn:https://www.seasar.org/svn/kvasir/trunk/
+    </connection>
+    <developerConnection>
+      scm:svn:https://www.seasar.org/svn/kvasir/trunk/
+    </developerConnection>
+    <url>http://svn.seasar.org/browse/?root=kvasir</url>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <inherited>false</inherited>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>site</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <move todir="target/site/en">
+                  <fileset dir="target/site">
+                    <exclude name="ja/"/>
+                    <exclude name="index.html.*"/>
+                  </fileset>
+                </move>
+                <delete>
+                  <fileset dir="target/site" includes="**/index.html.*">
+                    <exclude name="index.html.*"/>                  
+                  </fileset>
+                </delete>
+              </tasks>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>maven.seasar.org</id>
+      <name>The Seasar Foundation Maven2 Repository</name>
+      <url>scp://maven.seasar.org/home/groups/maven/public_html/maven2</url>
+    </repository>
+  </distributionManagement>
+</project>
