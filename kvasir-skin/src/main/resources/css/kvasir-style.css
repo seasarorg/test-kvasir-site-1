@@ -1,0 +1,333 @@
+*
+{
+  margin:auto;
+  padding:0px;
+}
+
+a:link, a:visited
+{
+  color:#393;
+}
+
+a:hover
+{
+  color:#333;
+}
+
+pre{
+  padding:3px;
+  font-size:small;
+  border-color:#333;
+  border-width:1px;
+  border-style:solid;
+}
+
+img.kvasir
+{
+  float:left;
+  padding-top:2px;
+  padding-left:8px;
+  margin-right:5px;
+}
+
+body
+{
+  background: url(../images/background.gif) repeat top left;
+  font-family:"Bitstream Vera Sans", "Verdana", sans-serif, serif;
+}
+
+h1
+{
+  font-size:medium;
+}
+
+h2
+{
+  color:#333;
+  border-bottom:2px solid #fc6;
+  font-size:medium;
+  margin-top:25px;
+  margin-bottom:0;
+  padding-left:3px;
+}
+
+h3
+{
+  background:#eee;
+  font-weight:bold;
+  font-size:large;
+  margin:7px 0px 7px 0px;
+  padding:3px;
+}
+
+h4
+{
+  border-bottom:solid 2px #999;
+  margin-top:8px;
+  margin-bottom:8px;
+  font-size:larger;
+}
+
+h5
+{
+  margin-top:8px;
+  margin-bottom:8px;
+  font-size:larger;
+}
+
+table
+{
+  color:#333;
+  background-color:#fff;
+}
+
+table a
+{
+  text-decoration:none;
+}
+
+table tr.published
+{
+  background-color:#ccc;
+}
+
+table th
+{
+  color:#000;
+  background-color:#ce6;
+  white-space:nowrap;
+  padding:3px;
+}
+
+table td
+{
+  border-top:solid 1px #ccc;
+  border-right:ridge 1px #333;
+  border-bottom:solid 1px #999;
+  border-left:ridge 1px #aaa;
+}
+
+
+table td ul li
+{
+  margin-left:7px;
+}
+
+#orange
+{
+  color:#c30;
+}
+
+#update
+{
+  /* background:#fc6; */
+  font-size:smaller;
+  margin-left:2px;
+  padding:1px;
+}
+
+#wrapper
+{
+  background:#fff;
+  border-top:solid 5px #c63;
+  border-left:solid 1px #333;
+  border-right:solid 1px #333;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:0px;
+}
+
+#header
+{
+  height:100px;
+  padding-bottom:20px;
+}
+
+#header img
+{
+  float:left;
+  margin-right:8px;
+}
+
+#title
+{
+  color:#ddd;
+  font-weight:bold;
+  padding-top:8px;
+  padding-left:10px;
+}
+
+#menu
+{
+  font-size:smaller;
+  padding-top:8px;
+}
+
+#menu ul
+{
+  list-style:none;
+  margin-top:none;
+  margin-left:10px;
+  margin-right:auto;
+}
+
+#menu ul li
+{
+  float:left;
+  margin-right:7px;
+  font-size:medium;
+}
+
+#main
+{
+  clear:both;
+  height:100%;
+  margin-left:10px;
+  margin-right:10px;
+  padding-top:8px;
+}
+
+#main div.left
+{
+  float:left;
+  padding:8px 0px 8px 0px;
+  width:230px;
+}
+
+#main div.left ul
+{
+  background:#eee;
+  list-style:none;
+  padding-left:8px;
+  border-style:solid;
+  border-width:0px 1px 1px 1px;
+  border-color:#999;
+}
+
+#main div.left ul ul
+{
+  border-width:0;
+}
+
+#main div.left ul li
+{
+  margin-bottom:2px;
+}
+
+#main div.left ul.dl
+{
+  margin-left:20px;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+
+#main div.right
+{
+  margin-left:250px;
+  padding:8px 0px 8px 8px;
+}
+
+#main div.right ul
+{
+  list-style:square;
+  margin:8px 0px 8px 30px;
+}
+
+div.right div.section
+{
+  font-size:medium;
+}
+
+#main div.date
+{
+  font-size:x-small;
+}
+
+#main div.desc
+{
+  font-size:smaller;
+  padding:8px;
+  padding-right:20px;
+}
+
+#main div.desc p.dlheader
+{
+  margin-top:5px;
+  margin-bottom:3px;
+  text-decoration:underline;
+}
+
+#main div.desc p.smaller
+{
+  font-size:small;
+}
+
+#main div.desc p.thumbnail
+{
+  margin:7px 0px 7px 0px;
+}
+
+#main div.desc p.code
+{
+  font-family:monospace;
+  margin:7px 0px 7px 0px;
+}
+
+#main div.desc a.largeImage
+{
+  border-style:none;
+}
+
+#main div.notice
+{
+  background-color:#efc;
+  border:groove 2px #ccc;
+  font-size:small;
+  padding:6px 10px 6px 10px;
+  margin-top:3px;
+  margin-bottom:3px;
+}
+
+#main ol
+{
+  margin-top:7px;
+  margin-left:20px;
+}
+
+#main dl
+{
+  border:solid 1px #999;
+  margin-top:7px;
+  margin-bottom:7px;
+  padding:5px;
+}
+
+#main dt
+{
+  font-size:normal;
+  margin-top:3px;
+}
+
+#main dd
+{
+  margin-left:12px;
+}
+
+#main div.left a:link,
+#main div.left a:visited
+{
+  color:#090;
+  font-style:"MS ゴシック", monospace, sans-serif;
+  text-decoration:none;
+}
+
+#footer
+{
+  clear:both;
+  color:#ccc;
+  background:#1a401d;
+  font-weight:bold;
+  font-size:x-small;
+  padding:2px 2px 2px 0px;
+  text-align:right;
+}

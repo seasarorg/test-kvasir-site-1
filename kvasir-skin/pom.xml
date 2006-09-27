@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.seasar</groupId>
+  <artifactId>kvasir-skin</artifactId>
+  <name>Seasar Foundation Project Site Skin</name>
+  <version>1.0.0</version>
+  <description>This is a site skin for projects on the Seasar Foundation.</description>
+</project>
